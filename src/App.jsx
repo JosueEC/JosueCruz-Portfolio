@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import HeroSection from './components/HeroSection'
 import Services from './components/Services'
 import Works from './components/Works'
+import About from './components/About'
 
 function App () {
   const [theme, setTheme] = useState(null)
@@ -40,6 +41,7 @@ function App () {
           <HeroSection />
           <Services />
           <Works />
+          <About />
         </div>
       </div>
     </>

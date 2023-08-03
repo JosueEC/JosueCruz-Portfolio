@@ -9,7 +9,6 @@ export default function Works () {
       <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
         {
           works.map(({ title, image, tech }) => {
-            console.info(title)
             return (
               <WorkItem
                 key={title}
