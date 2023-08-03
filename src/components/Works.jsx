@@ -8,13 +8,14 @@ export default function Works () {
       <SectionTitle id='works'>Recent Works</SectionTitle>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
         {
-          works.map(({ title, image, tech }) => {
+          works.map(({ title, image, tech, workURL }) => {
             return (
               <WorkItem
                 key={title}
                 title={title}
                 image={image}
                 tech={tech}
+                workURL={workURL}
               />
             )
           })
