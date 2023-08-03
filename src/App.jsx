@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import HeroSection from './components/HeroSection'
+import Services from './components/Services'
 
 function App () {
   const [theme, setTheme] = useState(null)
@@ -34,7 +35,10 @@ function App () {
         {theme === 'dark' ? '🌚' : '🌞'}
       </button>
       <div className='font-inter bg:white dark:bg-slate-900'>
-        <HeroSection />
+        <div className='max-w-5xl mx-auto w-11/12'>
+          <HeroSection />
+          <Services />
+        </div>
       </div>
     </>
   )
