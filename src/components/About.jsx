@@ -14,7 +14,7 @@ export default function About () {
         <p className='text-md text-gray-600 dark:text-gray-300'>
           No dudes en contactarme. Estoy seguro de que puedo contribuir de manera significativa a tu equipo de desarrollo.
         </p>
-        <a href='mailto:josueev.cruz@gmail.com' className='block mt-3 text-md md:text-lg font-regular text-gray-700 dark:text-gray-300 underline hover:text-indigo-500 dark:hover:text-indigo-500'>josueev.cruz@gmail.com</a>
+        <a href='mailto:josueev.cruz@gmail.com' className='block mt-3 text-md md:text-lg  text-gray-700 dark:text-gray-300 underline hover:text-indigo-500 dark:hover:text-indigo-500'>josueev.cruz@gmail.com</a>
       </div>
       <img src='https://avatars.githubusercontent.com/u/34457838?v=4' alt='JosueCruz' className='w-full md:w-6/12 rounded-lg object-cover' />
     </div>
