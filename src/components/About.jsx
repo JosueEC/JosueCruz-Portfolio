@@ -14,7 +14,7 @@ export default function About () {
         <p className='text-md text-gray-600 dark:text-gray-300'>
           Please do not hesitate to contact me. I am confident that I can make a significant contribution to your development team.
         </p>
-        <a href='mailto:josueev.cruz@gmail.com' className='block mt-3 text-md md:text-lg  text-gray-700 dark:text-gray-300 underline hover:text-indigo-500 dark:hover:text-indigo-500'>josueev.cruz@gmail.com</a>
+        <a href='mailto:josueev.cruz@gmail.com' target='_blank' rel='noreferrer' className='block mt-3 text-md md:text-lg  text-gray-700 dark:text-gray-300 underline hover:text-indigo-500 dark:hover:text-indigo-500'>josueev.cruz@gmail.com</a>
       </div>
       <img src='https://avatars.githubusercontent.com/u/34457838?v=4' alt='JosueCruz' className='w-full md:w-6/12 rounded-lg object-cover' />
     </div>

@@ -6,7 +6,7 @@ export default [
   {
     title: 'ProFinder',
     image: Profinder,
-    tech: ['NodeJS', 'Express', 'ReactJS', 'Redux', 'ChakraUI'],
+    tech: ['NodeJS', 'Express', 'Sequelize', 'PostgreSQL', 'Nodemailer', 'PassportJS', 'Firebase', 'Mercado Pago', 'ReactJS', 'Redux', 'ChakraUI', 'ChartJS', 'react-hook-form'],
     workURL: 'https://profinder-client.vercel.app/'
   },
   {
@@ -18,7 +18,7 @@ export default [
   {
     title: 'JosueCruz Portfolio',
     image: Portfolio,
-    tech: ['ReactJS', 'TailwindCSS'],
+    tech: ['ReactJS', 'TailwindCSS', 'react-icons'],
     workURL: '#hero'
   }
 ]

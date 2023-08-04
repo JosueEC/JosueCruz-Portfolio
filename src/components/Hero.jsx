@@ -22,12 +22,12 @@ export default function Hero () {
         </div>
 
         <div className='flex justify-center gap-6 mt-6'>
-          <a className='p-1 -m-1 group' href='#'>
+          <a className='p-1 -m-1 group' href='https://github.com/JosueEC' target='_blank' rel='noreferrer'>
             <BsGithub class='w-6 h-6 transition text-indigo-600
             dark:text-white hover:fill-indigo-500 md hydrated'
             />
           </a>
-          <a className='p-1 -m-1 group' aria-label='Follow on LinkedIn' href='#'>
+          <a className='p-1 -m-1 group' aria-label='Follow on LinkedIn' href='https://www.linkedin.com/in/josue-evangelista-cruz' target='_blank' rel='noreferrer'>
             <BsLinkedin class='w-6 h-6 transition text-2xl text-indigo-600
             dark:text-white hover:fill-indigo-500 md hydrated'
             />
