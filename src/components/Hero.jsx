@@ -1,5 +1,6 @@
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import ButtonAction from '../singleComponents/Buttons/ButtonAction'
+import ButtonDownloadFile from '../singleComponents/Buttons/ButtonDownloadFile'
 
 export default function Hero () {
   return (
@@ -16,7 +17,7 @@ export default function Hero () {
           </div>
           <div className='flex flex-row items-center justify-center max-w-xl gap-3 mx-auto mt-10 lg:flex-row'>
             <ButtonAction text='See works' />
-            <ButtonAction text='Download CV' />
+            <ButtonDownloadFile text='Download CV' />
           </div>
         </div>
 
