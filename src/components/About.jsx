@@ -6,13 +6,13 @@ export default function About () {
       <div className='w-full md:w-6/12 space-y-5'>
         <SectionTitle>About me</SectionTitle>
         <p className='text-md text-gray-600 dark:text-gray-300'>
-          Backend Developer con formación como Ingeniero en Sistemas Computacionales, con experiencia en el desarrollo de aplicaciones web utilizando diversas tecnologías y frameworks del sector.
+          Backend Developer with a background as a Computer Systems Engineer, with experience in web application development using various technologies and frameworks in the industry.
         </p>
         <p className='text-md text-gray-600 dark:text-gray-300'>
-          Mi objetivo es diseñar y desarrollar soluciones innovadoras y escalables que satisfagan las necesidades de los usuarios y los objetivos de negocio.
+          My goal is to design and develop innovative and scalable solutions that meet user needs and business goals.
         </p>
         <p className='text-md text-gray-600 dark:text-gray-300'>
-          No dudes en contactarme. Estoy seguro de que puedo contribuir de manera significativa a tu equipo de desarrollo.
+          Please do not hesitate to contact me. I am confident that I can make a significant contribution to your development team.
         </p>
         <a href='mailto:josueev.cruz@gmail.com' className='block mt-3 text-md md:text-lg  text-gray-700 dark:text-gray-300 underline hover:text-indigo-500 dark:hover:text-indigo-500'>josueev.cruz@gmail.com</a>
       </div>

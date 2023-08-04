@@ -12,7 +12,7 @@ export default function WorkItem ({ title, image, tech, workURL }) {
               return (
                 <span
                   key={item}
-                  className='inline-block px-2 py-1 bg-slate-200 dark:bg-slate-900 rounded-md'
+                  className='inline-block px-2 py-1 bg-slate-200 dark:bg-indigo-900 rounded-md'
                 >
                   {item}
                 </span>
