@@ -9,15 +9,15 @@ export default function Hero () {
         <div className='justify-center w-full text-center lg:p-2 max-auto'>
           <div className='justify-center w-full mx-auto'>
             <h1 className='text-6xl md:text-8xl mb-1 md:mb-3 text-indigo-600 font-semibold dark:text-indigo-500'>
-              Hi, I'm Josue Cruz
+              Hola, soy Josue
             </h1>
             <p className='max-w-xl mx-auto mt-4 text-lg md:text-3xl tracking-tight text-gray-600 dark:text-gray-300'>
-              Welcome to my personal portfolio
+              Bienvenido(a) a mi portfolio
             </p>
           </div>
           <div className='flex flex-row items-center justify-center max-w-xl gap-3 mx-auto mt-10 lg:flex-row'>
-            <ButtonAction text='See works' />
-            <ButtonDownloadFile text='Download CV' />
+            <ButtonAction text='Ver proyectos' />
+            <ButtonDownloadFile text='Descargar CV' />
           </div>
         </div>
 
