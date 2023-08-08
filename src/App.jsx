@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react'
 import Hero from './components/Hero'
 import Services from './components/Services'
 import LearningAbout from './components/LearningAbout'
+import Works from './components/Works'
 import About from './components/About'
 import Footer from './components/Footer'
-import ProjectItem from './components/ProjectItem'
 
 function App () {
   const [theme, setTheme] = useState(null)
@@ -46,7 +46,7 @@ function App () {
             <LearningAbout />
           </div>
         </div>
-        <ProjectItem />
+        <Works />
         <div className='max-w-5xl mx-auto w-11/12'>
           <About />
         </div>
