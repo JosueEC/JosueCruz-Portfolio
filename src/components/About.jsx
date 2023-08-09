@@ -16,7 +16,7 @@ export default function About () {
         </p>
         <a href='mailto:josueev.cruz@gmail.com' target='_blank' rel='noreferrer' className='block mt-3 text-md md:text-lg  text-gray-700 dark:text-gray-300 underline hover:text-indigo-500 dark:hover:text-indigo-500'>josueev.cruz@gmail.com</a>
       </div>
-      <img src='https://avatars.githubusercontent.com/u/34457838?v=4' alt='JosueCruz' className='w-full md:w-6/12 rounded-lg object-cover' />
+      <img src='https://avatars.githubusercontent.com/u/34457838?v=4' alt='JosueCruz' className='w-full md:w-6/12 rounded-lg object-cover' loading='lazy' />
     </div>
   )
 }
