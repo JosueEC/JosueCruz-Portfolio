@@ -45,7 +45,9 @@ function App () {
             <Services />
             <LearningAbout />
           </div>
-          <Works />
+        </div>
+        <Works />
+        <div className='max-w-5xl mx-auto w-11/12'>
           <About />
         </div>
         <Footer />

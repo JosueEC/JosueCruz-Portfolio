@@ -1,21 +1,21 @@
-import SectionTitle from './SectionTitle'
-import WorkItem from './WorkItem'
+import ProjectItem from './ProjectItem'
 import works from '../data/works'
 
 export default function Works () {
   return (
-    <div id='works' className='py-12'>
-      <SectionTitle id='works'>Recent Works</SectionTitle>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
+    <div id='works' className='mt-20'>
+      <div>
         {
-          works.map(({ title, image, tech, workURL }) => {
+          works.map(({ title, tech, description, linkDeploy, linkRepository, featuresData }) => {
             return (
-              <WorkItem
+              <ProjectItem
                 key={title}
                 title={title}
-                image={image}
                 tech={tech}
-                workURL={workURL}
+                description={description}
+                linkDeploy={linkDeploy}
+                linkRepository={linkRepository}
+                featuresData={featuresData}
               />
             )
           })
