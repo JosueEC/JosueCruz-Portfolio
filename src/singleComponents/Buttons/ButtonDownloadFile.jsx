@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import CV from '../../assets/Files/Josue Cruz - Desarrollador Web.pdf'
+import CV from '../../assets/documents/Josue Cruz - Desarrollador Web.pdf'
 
 export default function ButtonDownloadFile ({ text }) {
   return (
