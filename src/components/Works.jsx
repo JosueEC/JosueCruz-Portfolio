@@ -3,7 +3,7 @@ import works from '../data/works'
 
 export default function Works () {
   return (
-    <div id='works' className='mt-20'>
+    <div id='works' className='mt-20 md:mt-40'>
       <div>
         {
           works.map(({ title, tech, description, linkDeploy, linkRepository, featuresData }) => {

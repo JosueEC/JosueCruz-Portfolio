@@ -12,7 +12,7 @@ export default function Hero () {
               Hola, soy Josue
             </h1>
             <p className='max-w-xl mx-auto mt-4 text-lg md:text-3xl tracking-tight text-gray-600 dark:text-gray-300'>
-              Bienvenido(a) a mi portfolio
+              Desarrollador Web
             </p>
           </div>
           <div className='flex flex-row items-center justify-center max-w-xl gap-3 mx-auto mt-10 lg:flex-row'>
