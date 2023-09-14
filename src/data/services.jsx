@@ -1,7 +1,24 @@
-import { FaNodeJs, FaReact, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub } from 'react-icons/fa'
-import { SiExpress, SiSequelize, SiRedux, SiJavascript } from 'react-icons/si'
-import { BiLogoPostgresql } from 'react-icons/bi'
-import { GrMysql } from 'react-icons/gr'
+import {
+  FaNodeJs,
+  FaReact,
+  FaHtml5,
+  FaCss3Alt,
+  FaGitAlt
+} from 'react-icons/fa'
+import {
+  SiExpress,
+  SiSequelize,
+  SiRedux,
+  SiJavascript,
+  SiNestjs,
+  SiTypescript,
+  SiMongoose,
+  SiMongodb,
+  SiTailwindcss
+} from 'react-icons/si'
+import {
+  BiLogoPostgresql
+} from 'react-icons/bi'
 
 export default [
   {
@@ -9,24 +26,44 @@ export default [
     icon: <FaNodeJs className='w-full h-full' />
   },
   {
+    title: 'TypeScript',
+    icon: <SiTypescript className='w-full h-full' />
+  },
+  {
     title: 'Express',
     icon: <SiExpress className='w-full h-full' />
+  },
+  {
+    title: 'NestJS',
+    icon: <SiNestjs className='w-full h-full' />
+  },
+  {
+    title: 'TypeORM',
+    icon: <SiNestjs className='w-full h-full' />
   },
   {
     title: 'Sequelize',
     icon: <SiSequelize className='w-full h-full' />
   },
   {
+    title: 'Mongoose',
+    icon: <SiMongoose className='w-full h-full' />
+  },
+  {
     title: 'PostgreSQL',
     icon: <BiLogoPostgresql className='w-full h-full' />
   },
   {
-    title: 'MySQL',
-    icon: <GrMysql className='w-full h-full' />
+    title: 'MongoDB',
+    icon: <SiMongodb className='w-full h-full' />
   },
   {
     title: 'ReactJS',
     icon: <FaReact className='w-full h-full' />
+  },
+  {
+    title: 'TailwindCSS',
+    icon: <SiTailwindcss className='w-full h-full' />
   },
   {
     title: 'Redux',
@@ -47,9 +84,5 @@ export default [
   {
     title: 'Git',
     icon: <FaGitAlt className='w-full h-full' />
-  },
-  {
-    title: 'GitHub',
-    icon: <FaGithub className='w-full h-full' />
   }
 ]
