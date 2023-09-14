@@ -6,10 +6,10 @@ export default function About () {
       <div className='w-full md:w-6/12 space-y-5'>
         <SectionTitle>Acerca de mi</SectionTitle>
         <p className='text-md text-gray-600 dark:text-gray-300'>
-          Backend Developer con formación como Ingeniero en Sistemas Computacionales, con experiencia en el desarrollo de aplicaciones web utilizando diversas tecnologías y frameworks del sector.
+          Desarrollador Web con formación como Ingeniero en Sistemas Computacionales.
         </p>
         <p className='text-md text-gray-600 dark:text-gray-300'>
-          Mi objetivo es diseñar y desarrollar soluciones innovadoras y escalables que satisfagan las necesidades de los usuarios y los objetivos de negocio.
+          Mi objetivo es impulsar empresas en el logro de objetivos y máximo potencial en línea a través de mis habilidades como desarrollador, comprometido con el aprendizaje y aportar valor significativo a equipos y proyectos.
         </p>
         <p className='text-md text-gray-600 dark:text-gray-300'>
           No dudes en contactarme. Estoy seguro de que puedo contribuir de manera significativa a tu equipo de desarrollo.
