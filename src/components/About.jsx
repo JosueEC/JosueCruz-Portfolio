@@ -1,10 +1,11 @@
-import SectionTitle from './SectionTitle'
+import Title from '../singleComponents/Titles/Title'
 
 export default function About () {
   return (
-    <div className='flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 py-20'>
-      <div className='w-full md:w-6/12 space-y-5'>
-        <SectionTitle>Acerca de mi</SectionTitle>
+    <div id='about' className='flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 py-20 lg:mt-[100px]'>
+      <div className='relative w-full md:w-6/12 space-y-5'>
+        <div aria-hidden='true' className='absolute w-[200px] h-[200px] rounded-full bg-gradient-to-b from-blue-600 to-purple-600 blur-3xl opacity-60 md:left-[90%] md:top-[40%] top-[90%]' />
+        <Title text='Acerca de mi' />
         <p className='text-md text-gray-600 dark:text-gray-300'>
           Desarrollador Web con formación como Ingeniero en Sistemas Computacionales.
         </p>
@@ -16,7 +17,7 @@ export default function About () {
         </p>
         <a href='mailto:josueev.cruz@gmail.com' target='_blank' rel='noreferrer' className='block mt-3 text-md md:text-lg  text-gray-700 dark:text-gray-300 underline hover:text-indigo-500 dark:hover:text-indigo-500'>josueev.cruz@gmail.com</a>
       </div>
-      <img src='https://avatars.githubusercontent.com/u/34457838?v=4' alt='JosueCruz' className='w-full md:w-6/12 rounded-lg object-cover' loading='lazy' />
+      <img src='https://avatars.githubusercontent.com/u/34457838?v=4' alt='JosueCruz' className='w-full md:w-6/12 rounded-lg object-cover z-10' loading='lazy' />
     </div>
   )
 }

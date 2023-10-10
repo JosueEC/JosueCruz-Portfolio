@@ -1,12 +1,22 @@
+import { Button, Typography } from '@material-tailwind/react'
+
 /* eslint-disable react/prop-types */
-export default function ServiceItem ({ title, description, icon }) {
+export default function ServiceItem ({ title, icon }) {
   return (
-    <div className='bg-slate-300 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 hover:-translate-y-2 transform transition p-5 rounded-md'>
-      <div className='text-gray-800 dark:text-gray-300 w-6 h-6 mb-3'>
+    <Button
+      variant='outlined'
+      color='cyan'
+      className='hover:-translate-y-2 transform transition p-5 rounded-md border-2 border-cyan-500 flex-col items-center'
+    >
+      <div className='text-gray-300 w-10 h-10 mb-3'>
         {icon}
       </div>
-      <h1 className='font-semibold text-lg text-gray-600 dark:text-gray-200 mb-1'>{title}</h1>
-      <p className='text-md text-gray-600 dark:text-gray-300'>{description}</p>
-    </div>
+      <Typography
+        as='p'
+        variant='small'
+        color='white'
+      >{title}
+      </Typography>
+    </Button>
   )
 }

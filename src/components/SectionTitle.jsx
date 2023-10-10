@@ -1,11 +1,15 @@
+import { Typography } from '@material-tailwind/react'
+
 /* eslint-disable react/prop-types */
-export default function SectionTitle ({ children, id }) {
+export default function SectionTitle ({ text, id }) {
   return (
-    <h1
-      id={id && id}
-      className='text-3xl font-bold mb-5 text-indigo-600 dark:text-indigo-500'
+    <Typography
+      id={id}
+      variant='lead'
+      color='white'
+      className='mb-8'
     >
-      {children}
-    </h1>
+      {text}
+    </Typography>
   )
 }
