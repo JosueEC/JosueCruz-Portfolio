@@ -1,7 +1,6 @@
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
-import ButtonAction from '../singleComponents/Buttons/ButtonAction'
-import ButtonDownloadFile from '../singleComponents/Buttons/ButtonDownloadFile'
-import { Typography } from '@material-tailwind/react'
+import { Button, Typography } from '@material-tailwind/react'
+import backendCV from '../assets/documents/Josue Cruz - Desarrollador Backend.pdf'
 
 export default function Hero () {
   return (
@@ -28,8 +27,22 @@ export default function Hero () {
             </Typography>
           </div>
           <div className='flex flex-row items-center justify-center max-w-xl gap-3 mx-auto mt-10 lg:flex-row'>
-            <ButtonAction text='Ver proyectos' />
-            <ButtonDownloadFile text='Descargar CV' />
+            <a href='#projects'>
+              <Button
+                variant='outlined'
+                color='cyan'
+              >
+                Ver proyectos
+              </Button>
+            </a>
+            <a href={backendCV} target='_blank' rel='noreferrer' download='Josue Cruz - Desarrollador Backend'>
+              <Button
+                variant='gradient'
+                color='cyan'
+              >
+                Descargar CV
+              </Button>
+            </a>
           </div>
         </div>
 
