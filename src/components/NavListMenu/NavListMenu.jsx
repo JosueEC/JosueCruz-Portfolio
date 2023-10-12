@@ -28,7 +28,7 @@ export default function NavListMenu () {
       <div className='container mx-auto flex items-center justify-between text-blue-gray-50'>
         <Typography
           as='a'
-          href='#'
+          href='#hero'
           color='white'
           className='mr-4 cursor-pointer py-1.5 font-medium'
         >
