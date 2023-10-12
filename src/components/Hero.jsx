@@ -5,7 +5,7 @@ import backendCV from '../assets/documents/Josue Cruz - Desarrollador Backend.pd
 export default function Hero () {
   return (
     <section id='hero' className='relative md:h-screen flex items-center'>
-      <div aria-hidden='true' className='absolute w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] rounded-full bg-gradient-to-b from-blue-600 to-purple-600 blur-3xl opacity-50 top-[10%] left-[20%] md:left-[30%] md:top-[15%] lg:top-[20%] lg:left-[37%]' />
+      <div aria-hidden='true' className='absolute w-[200px] h-[200px] rounded-full bg-gradient-to-b from-blue-600 to-purple-600 blur-3xl opacity-40 top-[10%] left-[20%] md:left-[30%] md:top-[15%] lg:top-[20%] lg:left-[37%]' />
       <div className='items-center px-8 py-12 mx-auto max-w-7xl lg:px-16 md:px-12 lg:py-24'>
         <div className='justify-center w-full text-center lg:p-2 max-auto'>
           <div className='justify-center w-full mx-auto'>
