@@ -19,11 +19,16 @@ import {
 import {
   BiLogoPostgresql
 } from 'react-icons/bi'
+import { VscTypeHierarchySub } from 'react-icons/vsc'
 
 export default [
   {
     title: 'NodeJS',
     icon: <FaNodeJs className='w-full h-full' />
+  },
+  {
+    title: 'JavaScript',
+    icon: <SiJavascript className='w-full h-full' />
   },
   {
     title: 'TypeScript',
@@ -39,7 +44,7 @@ export default [
   },
   {
     title: 'TypeORM',
-    icon: <SiNestjs className='w-full h-full' />
+    icon: <VscTypeHierarchySub className='w-full h-full' />
   },
   {
     title: 'Sequelize',
@@ -68,10 +73,6 @@ export default [
   {
     title: 'Redux',
     icon: <SiRedux className='w-full h-full' />
-  },
-  {
-    title: 'JavaScript',
-    icon: <SiJavascript className='w-full h-full' />
   },
   {
     title: 'HTML',
