@@ -1,6 +1,6 @@
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { Button, Typography } from '@material-tailwind/react'
-import fullstackCV from '../assets/documents/Josue Cruz - Desarrollador FullStack.pdf'
+import fullstackCV from '../assets/documents/Josue Cruz - Desarrollador Fullstack.pdf'
 
 export default function Hero () {
   return (
