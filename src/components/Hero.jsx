@@ -1,6 +1,6 @@
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { Button, Typography } from '@material-tailwind/react'
-import backendCV from '../assets/documents/Josue Cruz - Desarrollador Backend.pdf'
+import fullstackCV from '../assets/documents/Josue Cruz - Desarrollador Fullstack.pdf'
 
 export default function Hero () {
   return (
@@ -23,7 +23,7 @@ export default function Hero () {
               color='white'
               className='sm:text-2xl md:text-4xl'
             >
-              Desarrollador Web Backend
+              Desarrollador FullStack
             </Typography>
           </div>
           <div className='flex flex-row items-center justify-center max-w-xl gap-3 mx-auto mt-10 lg:flex-row'>
@@ -35,7 +35,7 @@ export default function Hero () {
                 Ver proyectos
               </Button>
             </a>
-            <a href={backendCV} target='_blank' rel='noreferrer' download='Josue Cruz - Desarrollador Backend'>
+            <a href={fullstackCV} target='_blank' rel='noreferrer' download='Josue Cruz - Desarrollador FullStack'>
               <Button
                 variant='gradient'
                 color='cyan'

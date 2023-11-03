@@ -7,7 +7,7 @@ export default function About () {
         <div aria-hidden='true' className='absolute w-[200px] h-[200px] rounded-full bg-gradient-to-b from-blue-600 to-purple-600 blur-3xl opacity-60 md:left-[90%] md:top-[40%] top-[90%]' />
         <Title text='Acerca de mi' />
         <p className='text-md text-gray-600 dark:text-gray-300'>
-          Desarrollador Web con formación como Ingeniero en Sistemas Computacionales.
+          Desarrollador FullStack con formación como Ingeniero en Sistemas Computacionales.
         </p>
         <p className='text-md text-gray-600 dark:text-gray-300'>
           Mi objetivo es impulsar empresas en el logro de objetivos y máximo potencial en línea a través de mis habilidades como desarrollador, comprometido con el aprendizaje y aportar valor significativo a equipos y proyectos.
