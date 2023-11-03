@@ -5,7 +5,7 @@ import learning from '../data/learning'
 export default function LearningAbout () {
   return (
     <div className=''>
-      <SectionTitle text='Y dominio basico-intermedio en:' />
+      <SectionTitle text='Y dominio intermedio en:' />
       <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5'>
         {
           learning.map(({ title, icon }) => {

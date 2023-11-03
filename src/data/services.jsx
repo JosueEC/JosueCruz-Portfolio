@@ -3,7 +3,8 @@ import {
   FaReact,
   FaHtml5,
   FaCss3Alt,
-  FaGitAlt
+  FaGitAlt,
+  FaJava
 } from 'react-icons/fa'
 import {
   SiExpress,
@@ -14,7 +15,9 @@ import {
   SiTypescript,
   SiMongoose,
   SiMongodb,
-  SiTailwindcss
+  SiTailwindcss,
+  SiSpringboot,
+  SiHibernate
 } from 'react-icons/si'
 import {
   BiLogoPostgresql
@@ -22,6 +25,18 @@ import {
 import { VscTypeHierarchySub } from 'react-icons/vsc'
 
 export default [
+  {
+    title: 'Java',
+    icon: <FaJava className='w-full h-full' />
+  },
+  {
+    title: 'Spring-boot',
+    icon: <SiSpringboot className='w-full h-full' />
+  },
+  {
+    title: 'Hibernate',
+    icon: <SiHibernate className='w-full h-full' />
+  },
   {
     title: 'NodeJS',
     icon: <FaNodeJs className='w-full h-full' />
